@@ -1,10 +1,7 @@
 function square(a) {
-  return a * a;
-}
-function randomTimeout(cb) {
-  setTimeout(cb, Math.random() * 500)
+  return a * a
 }
 
 module.exports = {
-  square, randomTimeout
+  square
 }
